@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+.block {
+    margin: auto;
+    margin-top: 5%;
+    padding: 3%;
+
+    background-color: rgb(255, 202, 122);
+    border: 1px solid black;
+    border-radius: 16px;
+
+    width: 200px;
+    text-align: center;
+}
+
+.plus, .minus {
+    border: 1px solid black;
+    border-radius: 6px;
+
+    background-color: orange;
+    
+    width: 80px;
+    height: 25px;
+}
+
+.counter {
+    text-align: center;
+}
+
+.head {
+    margin: auto;
+    text-align: center;
+}
+
+.image {
+    width: 100px;
+    margin: 3%;
+}
