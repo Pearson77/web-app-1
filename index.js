@@ -1,7 +1,7 @@
 const $site = document.querySelector('#main');
 
-const phones = ['Iphone 15', 'Xiaomi 12X', 'Samsung Galaxy'];
-const data = {'Iphone 15': 0, 'Xiaomi 12X': 0, 'Samsung Galaxy': 0};
+const phones = ['Iphone 15', 'Xiaomi 12X', 'Samsung Galaxy', 'Xiaomi Redmi 12', 'Honor X9a', 'OnePlus Nord 3'];
+const data = {'Iphone 15': 0, 'Xiaomi 12X': 0, 'Samsung Galaxy': 0, 'Xiaomi Redmi 12': 0, 'Honor X9a': 0, 'OnePlus Nord 3': 0};
 
 function createDiv(name, id) {
     return `
